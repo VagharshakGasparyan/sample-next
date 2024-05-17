@@ -4,7 +4,7 @@ import {useParams, usePathname, useRouter, useSearchParams} from "next/navigatio
 import {useEffect, useState} from "react";
 
 export default function Tm() {
-    const {} = useRouter();
+    const router = useRouter();
     const pathname = usePathname();
     const s_params = useSearchParams();
     const params = useParams();

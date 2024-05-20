@@ -51,5 +51,6 @@ app/shop/[...slug]/page.js	{ slug: string[] }
 app/shop/[[...slug]]/page.js	{ slug?: string[] }
 app/[categoryId]/[itemId]/page.js	{ categoryId: string, itemId: string }
 -----------------------------------------------------------------------
-
+'use server'
+SSR(Server-side rendering), ISR(Incremental Static Regeneration), SSG(Static Site Generation)
 

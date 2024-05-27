@@ -24,6 +24,12 @@ export function NavLinks() {
             >
                 Dashboard
             </Link>
+            <Link
+                className={`link ${pathname === '/dashboard' ? 'active' : ''}`}
+                href="/admin"
+            >
+                Admin
+            </Link>
         </nav>
     )
 }
